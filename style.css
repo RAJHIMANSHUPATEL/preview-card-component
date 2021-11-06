@@ -120,9 +120,7 @@ div.sedan:hover{
 
 /* For I Phone X View */
 @media screen and (max-width: 375px) {
-    body{
-        
-    }
+    
     div{
         min-width: 100vw;
         margin: 0;
