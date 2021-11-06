@@ -1,0 +1,150 @@
+body{
+    margin: 100px;
+    padding: 0;
+    position: static;
+    background: hsl(0, 0%, 95%);
+    
+    
+}
+div{
+    float:left;
+    width: 33.33%;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 100px;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.9rem;
+
+}
+.sedan{
+    background: hsl(31, 77%, 52%);
+    min-height: 95vh;
+    border-radius: 10px 0 0 10px;
+}
+.suvs{
+    background: hsl(184, 100%, 22%);
+    min-height: 95vh;
+    
+
+}
+.luxury{
+    background: hsl(179, 100%, 13%);
+    min-height: 95vh;
+    border-radius: 0 10px 10px 0;
+}
+h1{
+    position: relative;
+    top: 120px;
+    left: 80px;
+    font-size: 2.25rem;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+
+}
+p{
+    font-size: 1.15rem;
+}
+.p1{
+    position: relative;
+    top: 120px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+}
+.p2{
+    position: relative;
+    top: 120px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+}
+.p3{
+    position: relative;
+    top: 120px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+}
+svg{
+    position: relative;
+    top: -220px;
+    left: 80px;
+    
+}
+
+
+button{
+    border: solid hsla(0, 0%, 100%, 0.9);
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    font-size: 1.15rem;
+    top: 200px;
+    
+
+}
+.one{
+    background: hsla(0, 0%, 100%, 0.9);
+    color: hsl(31, 77%, 52%);
+    position: relative;
+    
+    left: 12px;
+}
+.two{
+    background: hsla(0, 0%, 100%, 0.9);
+    color: hsl(184, 100%, 22%);
+    position: relative;
+    
+    left: 12px;
+}
+.three{
+    background: hsla(0, 0%, 100%, 0.9);
+    color: hsl(179, 100%, 13%);
+    position: relative;
+    
+    left: 12px;
+}
+.one:hover{
+    background: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.9);
+}
+.two:hover{
+    background: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.9);
+}
+.three:hover{
+    background: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.9);
+}
+div.sedan:hover{
+    transform: translate(10px 10px);
+}
+
+
+/* For I Phone X View */
+@media screen and (max-width: 375px) {
+    body{
+        
+    }
+    div{
+        min-width: 100vw;
+        margin: 0;
+        
+        margin-right: 100px;
+    }
+    .sedan{
+        border-radius: 10px 10px 0 0 ;
+        
+    }
+    .luxury{
+        border-radius: 0 0 10px 10px ;
+        margin-bottom: 100px;
+        
+        
+    }
+    svg{
+        position: relative;
+        top: --220px;
+    }
+    .icon{
+        position: relative;
+        top: -220px;
+    }
+}
